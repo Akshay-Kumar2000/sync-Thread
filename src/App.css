@@ -1,0 +1,851 @@
+
+.App{
+  text-align: center;
+}
+
+.Navbar{
+  width: 95%;
+  display: flex;
+  gap: 30px;
+  margin: auto;
+}
+img{
+  width: 110px;
+  height: 55px;
+  margin-top: 2px;
+}
+/* img:hover{
+  text-underline-offset: 30px;
+  text-decoration: underline;
+  cursor: pointer;
+} */
+.p{
+  font-size: 17px;
+  color: rgb(107 114 128);
+}
+.p:hover{
+  color: rgb(62, 62, 62);
+  text-underline-offset: 32px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.inputs{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 35%;
+  min-height: 200px;
+  margin: auto;  
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.img1{
+  width: 240px;
+  height: 100px;  
+}
+.input{
+  width: 95%;
+  margin: auto;
+  height: 35px;
+  border: 0.5px solid;
+  border-radius: 5px;
+}
+.label1{
+  display: block; 
+  margin-left:10px;
+  font-size: 15px;
+  font-weight: 500;  
+  text-align: start;
+}
+
+.df1{
+  width: 30%;  
+  margin-left: 20px;
+   
+}
+.df{
+  width: 60%;
+  margin-left: auto;
+  display: flex;  
+  gap: 5px;
+}
+.checkbox{
+  margin-top: 15px;
+}
+.login{
+  background-color: rgb(32, 32, 32);
+  color: white;
+  min-width: 80px;
+  margin-top: 13px;
+  min-height: 20px;
+  border-radius: 5px;   
+  margin-left: 3px;  
+  cursor: pointer;
+}
+.login:hover{
+  background-color: rgb(66, 66, 66);
+  color: white;
+  min-width: 80px;
+  margin-top: 13px;
+  border-radius: 5px;
+  padding: 5px;
+  min-height: 20px;
+  margin-left: 3px;
+  cursor: pointer;
+  border: 2px rgb(183, 183, 183);
+}
+
+.label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+.inp {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+}
+
+.aa{
+  text-decoration: underline;
+  color: rgb(110, 110, 110);
+  cursor: pointer;
+}
+
+.Shedule{
+  width: 95%;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  margin: auto;
+  height: 80px;
+}
+.divcc{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.btnss{
+  display: flex;
+  gap: 5px;
+}
+
+.btns{
+  background-color: rgb(32, 32, 32);
+  color: white;
+  min-width: 80px;
+  margin-top: 13px;
+  border-radius: 5px;
+  padding: 5px;
+  min-height: 30px;
+  margin-left: 3px;  
+  cursor: pointer;
+}
+
+.btns:hover{
+  background-color: rgb(66, 66, 66);
+  color: white;
+  min-width: 80px;
+  margin-top: 13px;
+  border-radius: 5px;
+  padding: 5px;
+  min-height: 30px;
+  margin-left: 3px;  
+  cursor: pointer;
+}
+
+.shedules{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 95%;  
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.all-lects{ 
+  height: 125px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;  
+}
+.all-lects:hover{ 
+  height: 125px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;  
+  background-color: rgb(255, 255, 255);
+}
+.lects{
+  padding-top: 1px;
+  width: 180px;
+  height: 100%;
+  background-color: rgb(78, 78, 248);
+  color: white;
+}
+.all-lect{ 
+  height: 80px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;  
+}
+.all-lect:hover{ 
+  height: 80px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;  
+  background-color: rgb(255, 255, 255);
+}
+.lect{
+  padding-top: 1px;
+  width: 180px;
+  height: 100%;
+  background-color: rgb(78, 78, 248);
+  color: white;
+}
+.h3{
+  color: rgb(78, 78, 241);
+  text-align: start;
+}
+.details{
+  margin-left: auto;
+  width: 150px;
+}
+
+.detls{
+  margin-right: auto;
+  
+}
+
+.ppa{
+  margin-left: auto;
+  text-align: right;
+}
+
+.dbtns{
+background-color: rgb(147, 188, 255);
+border-radius: 30px;
+color: black;
+border: transparent;
+min-height: 20px;
+width: 50px;
+cursor: pointer;
+}
+.dbtnss{
+  background-color: rgb(150, 244, 171);
+  border-radius: 30px;
+  width: 50px;
+  color: black;
+  border: transparent;
+  min-height: 20px;
+  cursor: pointer;
+}
+
+.btnsdiv{
+  margin-left: -110px;
+}
+.btnsdivs{
+  margin-left: -180px;
+}
+
+.links{    
+  color: black;
+  text-underline-offset: 35px;
+  text-decoration: none;
+  cursor: pointer;
+}
+ .links:focus{
+  color: rgb(0, 0, 255);
+  text-underline-offset: 32px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.links:hover{
+  /* color: black; */
+  text-underline-offset: 32px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.dbtnsa{
+  background-color: rgb(241, 56, 56);
+  width: 65px;
+  color: white;
+  border: transparent;
+  min-height: 30px;
+  cursor: pointer;
+}
+.dbtnsp{
+  background-color: rgb(29, 222, 71);
+  width: 65px;
+  color: white;
+  border: transparent;
+  min-height: 30px;
+  cursor: pointer;
+}
+
+.live{
+  background-color: rgb(23, 143, 49);
+  width: 40px;
+  color: white;
+  border: transparent;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Lectures{
+  width: 95%;
+  margin-left: 30px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.h22{  
+  text-align: start;
+}
+.lecturs{  
+  margin: auto;
+  width: 95%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Admin{
+  width: 95%;
+  margin-left: 30px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.Tickets{
+  width: 95%;
+  margin-left: 30px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.Electives{
+  width: 95%;
+  margin-left: 30px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.Notifications{
+  width: 95%;
+  margin-left: 30px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.Discussions{
+  width: 95%;
+  margin-left: 30px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.dbtnsn{
+  background-color: #b52c2c;
+  min-width: 45px;
+  color: white;
+  border: transparent;
+  height: 25px;
+  cursor: pointer;
+}
+.dbtnsc{
+  background-color: rgb(19, 64, 28);
+  min-width: 65px;
+  color: white;
+  border: transparent;
+  height: 25px;
+  cursor: pointer;
+}
+.fullstack{
+  background-color: rgb(45, 131, 211);
+  min-width: 40px;
+  color: white;
+  border: transparent;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.frontend{
+  background-color: rgb(48, 130, 42);
+  min-width: 40px;
+  color: white;
+  border: transparent;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.backend{
+  background-color: rgb(162, 192, 63);
+  min-width: 40px;
+  color: white;
+  border: transparent;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.oj{
+  background-color: rgb(206, 72, 155);
+  min-width: 40px;
+  color: white;
+  border: transparent;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dbtnspp{
+  background-color: rgb(156, 156, 35);
+  min-width: 65px;
+  color: white;
+  border: transparent;
+  height: 25px;
+  cursor: pointer;
+}
+.detailss{
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  width: 150px;
+}
+
+.Assignments{
+  width: 95%;
+  margin: auto;
+  margin-left: 30px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.Assignmentss{  
+  margin: auto;
+  width: 95%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Tickets{
+  width: 95%;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  margin: auto;
+  height: 80px;
+  margin-bottom: 50px;
+}
+.Electives{
+  width: 95%;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  margin: auto;
+  height: 80px;
+}
+
+.notify{
+  width: 95%;
+  height: 50px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.discuss{
+  width: 95%;
+  height: 120px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.tickts{
+  width: 95%;
+  height: 50px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.adm{
+  width: 95%;
+  height: 50px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.modal {  
+  font-size: 12px;
+  margin-top: 160px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 10px;
+}
+ .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px;  
+  font-weight: 600;
+}
+.content {
+  width: 100%;
+  padding: 10px 5px;
+  
+}
+.actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+  margin-top: 180px;
+  margin-right: 20px;
+}
+
+.lectlable{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.adminspage{
+  display: flex;
+  gap: 50px;
+  width: 25%;
+  margin: auto;
+}
+
+.select{
+  width: 97.5%;
+  height: 38px;
+  border: 0.5px solid;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.passwordref{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 23px;
+}
+.label11{
+  color: blue;
+  cursor: pointer;
+}
+
+.login1{
+  background-color: rgb(188, 188, 188);
+  color: gray;
+  min-width: 90%;
+  margin-top: 13px;
+  border-radius: 5px;
+  padding: 5px;
+  min-height: 40px;
+  margin-left: 3px;  
+  border: transparent;
+  cursor: not-allowed;  
+}
+
+.login11{
+  background-color: transparent;
+  color: rgb(46, 46, 46);
+  min-width: 90%;
+  margin-top: 13px;
+  border-radius: 5px;
+  padding: 5px;
+  min-height: 40px;
+  margin-left: 3px;  
+  border: 0.3px solid; 
+  cursor: pointer; 
+}
+
+.login111{
+  color: blue;
+  text-align: center;
+  text-decoration: none;
+}
+
+.df1111{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  gap: 5px;
+}
+
+.aaa{
+  text-decoration: none;
+  color: #9f9f9f;
+}
+.aalink{
+  text-decoration: none;
+}
+
+.BookMarks{
+  width: 95%;
+  margin-left: 30px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.bookmarks{
+  width: 95%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.h33333{
+  text-align: start;
+  margin-left: 33px;
+}
+
+.blect{
+  display: flex;
+  justify-content: space-around;
+}
+.aaaa{ 
+  color: #9f9f9f;
+}
+.createtickts{
+  width: 95%; 
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.select1{
+  width: 26%;
+  height: 38px;
+  border: 0.5px solid;
+  border-radius: 5px; 
+  font-size: 16px; 
+}
+
+.creatediv{
+  text-align: left;
+  padding-left: 40px;
+  margin-top: 50px;
+  padding-top: 50px;
+  width: 98%;
+  margin: auto;
+}
+.cteateinpt{
+  width: 96%;
+  font-size: 16px; 
+  min-height: 35px;
+  border: 0.5px solid;
+  border-radius: 5px;
+}
+textarea{
+  border: transparent;
+  font-size: 18px;
+}
+textarea:focus, textarea:active,textarea:visited{
+  border: transparent;
+}
+
+.createaa{
+  display: flex;
+  gap: 20px;
+  width: 96%;
+  padding-left: 10px;  
+  height: 60px;
+  cursor: pointer;
+  font-size: 16px; 
+  background-color: #f8f7f7;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.createaa1:hover{  
+  color: blue;
+  text-decoration: underline;
+}
+.createaa2:hover{  
+  color: blue;
+  text-decoration: underline;
+}
+.createaa3:hover{  
+  color: blue;
+  text-decoration: underline;
+}
+
+.btnsasa{
+  text-align: start;
+  margin-left: 30px;
+}
+
+.ElectivesCatalogsss{
+  width: 95%;  
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: start;
+  padding: 14px;
+  border-radius: 5px;
+}
+
+.Catalogss{
+  display: flex;
+  gap: 0%;
+  width: 95%;
+  margin: auto;
+  margin-top: 50px;
+  cursor: pointer;
+  }
+  .profile{
+    font-size: 12px;    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;   
+    border-radius: 10px;   
+    margin-left: 1000px; 
+    margin-bottom: 350px;
+    width: 200px;
+    background-color: #ffffff;
+  }
+  .plinks{
+    text-decoration: none;
+    color: black;
+  }
+  .inputss{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 80%;
+    min-height: 100px;
+    margin: auto;  
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 35px;   
+  }
+
+  .inputsss{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 70%;
+    min-height: 100px;
+    margin: auto;  
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 35px;
+  }
+.inputssssss{
+  width: 99%;
+  margin-left: auto;
+  height: 35px;
+  border: 0.5px solid;
+  border-radius: 5px;
+}
+  .ppsave{
+    text-align: right;
+  }
+
+  .browserp{
+    text-align: start;
+  }
+
+  .profiledivs{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    margin-top: 35px;
+  }
+
+  .textdivprf{
+    text-align: start;
+    width: 80%;
+  }
+
+  .ppsavebb{
+    text-align: start;
+  }
+
+  .browspan{
+    color: rgb(3, 210, 48);;
+  }
+  .browsertap{
+    display: flex;
+    gap: 8px;
+  }
+  .browserdivtext{
+    text-align: start;
+    line-height: 35%;
+  }
+  .browpp{
+    color: #9f9f9f;
+  }
+  .tbdevice{
+    width: 45px;
+    height: 45px;
+    margin-top: 9px;
+  }
+  .pcontent {      
+    padding: 10px;  
+  }
+  .paaa{
+    font-size: 15px;
+    color: #9f9f9f;
+  }
+  .pppaa{
+    margin-left: 200px;
+  }
+  .prf{
+  font-size: 17px;
+  color: rgb(107 114 128);
+  }
+  .prf:hover{
+    font-size: 17px;
+    color: rgb(62, 62, 62);
+    cursor: pointer;
+    }
+  .paaaa{
+    font-size: 15px;
+    cursor: pointer;    
+  }
+  .paaaa:hover{
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #f0f0f0;    
+  }
+  .signup{
+    background-color: gainsboro;
+    color: gray;
+    min-width: 90%;
+    margin-top: 13px;
+    border-radius: 5px;
+    padding: 5px;
+    min-height: 40px;
+    margin-left: 3px;  
+    border: transparent;
+    cursor: pointer;
+    }
+  .signup:hover{
+  background-color: rgb(66, 133, 244);
+  color: white;
+  min-width: 90%;
+  margin-top: 13px;
+  border-radius: 5px;
+  padding: 5px;
+  min-height: 40px;
+  margin-left: 3px;  
+  border: transparent;
+  cursor: pointer;
+  }
+
+  .google-signin{
+    margin: auto;
+    width: 50%;
+   margin-top: 50px;
+  }
+
+  .alert{
+    background-color: red;
+    color: white;    
+    padding: 5px;
+    border-radius: 5px;
+  }
