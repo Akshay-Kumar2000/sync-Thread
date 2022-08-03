@@ -6,7 +6,7 @@ import { HomePage } from './components/HomePage';
 // import { Cards } from "./components/Cards";
 import { Shedule } from './components/Shedule';
 import { Referal } from './components/Referal';
-import { MakersMap } from './components/CurrentLocation';
+// import { MarkersMap } from './components/CurrentLocation';
 function App() {
   return (
     <div className="App">         
@@ -19,7 +19,7 @@ function App() {
           <Route path="/dashboard" element={<Shedule />} />
           {/* <Route path="/dashboard" element={<Cards/>}/> */}
           {/* <Route path="/lectures" element={<Lectures />} /> */}
-          <Route path="/currentlocation" element={<MakersMap/>} />
+          {/* <Route path="/currentlocation" element={<MarkersMap/>} /> */}
           
         </Routes>
         </UserAuthContextProvider>

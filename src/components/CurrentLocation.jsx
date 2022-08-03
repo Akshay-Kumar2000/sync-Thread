@@ -3,7 +3,7 @@ import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 
 import "leaflet/dist/leaflet.css";
-import osm from "./osm-providers";
+// import osm from "./osm-providers";
 
 // import Header from "components/Header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,13 +11,13 @@ import useGeoLocation from "../hooks/useGeoLocation";
 // import ExternalInfo from "components/ExternalInfo";
 
 const markerIcon = new L.Icon({
-  iconUrl: require("resources/images/marker.png"),
+  // iconUrl: require("assets/marker.png"),
   iconSize: [40, 40],
   iconAnchor: [17, 46], //[left/right, top/bottom]
   popupAnchor: [0, -46], //[left/right, top/bottom]
 });
 
-const MarkersMap = () => {
+export const MarkersMap = () => {
   const [center, setCenter] = useState({ lat: 13.084622, lng: 80.248357 });
   const ZOOM_LEVEL = 9;
   const mapRef = useRef();
@@ -38,9 +38,9 @@ const MarkersMap = () => {
 
   return (
     <>
-      <Header title="React Leaflet Map Example" />
+      {/* <Header title="React Leaflet Map Example" /> */}
 
-      <ExternalInfo page="leafletCurrentLocation" />
+      {/* <ExternalInfo page="leafletCurrentLocation" /> */}
 
       <div className="row">
         <div className="col text-center">
@@ -48,10 +48,10 @@ const MarkersMap = () => {
           <p>Get user location and highlight it with a marker</p>
           <div className="col">
             <Map center={center} zoom={ZOOM_LEVEL} ref={mapRef}>
-              <TileLayer
+              {/* <TileLayer
                 url={osm.maptiler.url}
                 attribution={osm.maptiler.attribution}
-              />
+              /> */}
 
               {location.loaded && !location.error && (
                 <Marker
@@ -78,7 +78,7 @@ const MarkersMap = () => {
   );
 };
 
-export default MarkersMap;
+// export default MarkersMap;
 
 // import React from "react";
 // import { Navbar } from './Navbar';
