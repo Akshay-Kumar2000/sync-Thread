@@ -7,7 +7,7 @@ import osm from "./osm-providers";
 
 // import Header from "components/Header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import useGeoLocation from "hooks/useGeoLocation";
+import useGeoLocation from "../hooks/useGeoLocation";
 // import ExternalInfo from "components/ExternalInfo";
 
 const markerIcon = new L.Icon({
@@ -17,7 +17,7 @@ const markerIcon = new L.Icon({
   popupAnchor: [0, -46], //[left/right, top/bottom]
 });
 
-const Location = () => {
+const MarkersMap = () => {
   const [center, setCenter] = useState({ lat: 13.084622, lng: 80.248357 });
   const ZOOM_LEVEL = 9;
   const mapRef = useRef();
@@ -78,7 +78,7 @@ const Location = () => {
   );
 };
 
-// export default MarkersMap;
+export default MarkersMap;
 
 // import React from "react";
 // import { Navbar } from './Navbar';
